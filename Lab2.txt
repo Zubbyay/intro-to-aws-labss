@@ -15,6 +15,7 @@ Type      Source
 SSH         My IP
 HTTP       Anywhere IPv4
 HTTP       Anywhere IPv6
+SSH        Anywhere IPv4
 
 Step 4 (Create a Launch Template)
 Create Launch template , give it a name and description you prefer.
@@ -22,6 +23,7 @@ Select “Amazon Linux 2 AMI “ under Application and OS Images
 Select “t2micro “ for instance type
 Select your pre-created Key pair you created in step 2
 Select existing security group and select the one you created in step 3
+
 
 Open up the “Advanced details” tab and scroll to “User data” and paste the below script
 #!/bin/bash
